@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="registrationf.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration' page</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li> <a href="webdev1.1.html">signup</a></li>
+            </ul>
+        </nav>
+    <div class="wrapper">
+        <div class="form">
+            <header><h1>Registration</h1></header>
+            <form action="connect.php" method="post">
+                <div class="field fname">
+                    <div class="input-area">
+                        <input type="text" placeholder="First Name" name="FirstName" />
+                        <i class="icon fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="field lname">
+                    <div class="input-area">
+                        <input type="text" placeholder="Last Name" name="lastname" />
+                        <i class="uil uil-user"></i>
+                    </div>
+                </div>
+                <div class="field email">
+                    <div class="input-area">
+                        <input type="email" placeholder="Email" name="Email">
+                        <i class="icon fas fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="field password">
+                    <div class="input-area">
+                        <input type="password" placeholder="Password" name="Password">
+                        <i class="icon fas fa-lock"></i>
+                    </div>
+                </div>
+                <div class="radio_btn">
+                    <input type="radio" name="r1" id="male" value="male" checked />
+                    <label for="male">Male</label>
+                    <input type="radio" name="r1" id="female" value="female"/>
+                    <label for="male">Female</label>
+                </div>
+                <div class="select-btn">
+                    <select name="countries">
+                        <option value="">Select Country</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="England">England</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Dubai">Dubai</option>
+                    </select>
+
+                </div>
+                <input  type="submit"  value ="Signup" name="submit" />
+                
+           
+        </div>
+    </div>
+</div>
+</form>
+</body>
+</html>

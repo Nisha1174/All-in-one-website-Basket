@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns: 200px 200px 200px 200px 200px;
+            grid-gap:80px;
+            grid-auto-rows:200px;
+
+        }
+        .flex-container{
+            display:flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        .items{
+            background-color: white;
+            border: 3px lightcoral;
+            border-radius: 3px;
+        }
+    </style>
+    <style>
+        body {
+    background-image: url('bgimage3.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="wevdev1.1.html">webpage</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1><img src="webpagelogo1.1.jpg" height="200px"></h1>
+    </header>
+    <nav>
+       <h3><a href="#">Find Your Intreset</a></h3> 
+    </nav>
+    <br>
+    <br>
+    <main>
+    <section>
+        <h2><b>News</h2></b>
+    <div class="container">
+        
+        <div class="items">
+            <label for="101"><img src="zeenews.jpg" height="170px" >
+            <a href="https://zeenews.india.com/hindi"> <b>ZeeWews</b></a> 
+        </label>
+        </div> 
+
+        <div class="items"><img src="aajtak logo.jpg"height="130px" >
+            <a href="https://www.aajtak.in/"> <b></b>Aajtak</a>
+        </div>
+
+        <div class="items"> <img src="indiatoday logo.jpg" height="150px">
+            <a href="https://www.indiatoday.in/"><b>IndiaToday</b></a>
+        </div>
+
+        <div class="items"> <img src="bbc logo.jpg" height="110px">
+            <a href="https://www.bbc.com/"><b>BCC</b></a>
+        </div>
+
+        <div class="items"><img src="r bharat logo.jpg" height="100px">
+             <a href="https://www.republicworld.com/"><b>RepublicWorld</b></a>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<section>
+    <h2>Social media</h2>
+    <div class="container">
+
+        <div class="items"><img src="instalogo2.jpg" height="170px" >
+            <a href="https://www.instagram.com/"> <b>Instagram</b></a>
+        </div>
+
+        <div class="items"><img src="twitterlogo3.2.jpg"height="150px" >
+            <a href="https://twitter.com/home"> <b>Twitter</b></a>
+        </div>
+
+        <div class="items"> <img src="facebooklogo2.jpg" height="170px">
+            <a href="https://www.facebook.com/"><b>Facebook</b></a>
+        </div>
+
+        <div class="items"> <img src="u tube2.2.jpg" height="170px">
+            <a href="https://www.youtube.com/"><b>Youtbe</b></a>
+        </div>
+
+        <div class="items"><img src="snapchat logo.jpg" height="130px">
+             <a href="https://www.snapchat.com/"><b>Snapchat</b></a>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Games</h2>
+    <div class="container">
+        <div class="items"><img src="game1.jpg" height="150px" >
+            <a href="https://playvalorant.com"> <b>Valorant</b></a>
+        </div>
+
+        <div class="items"><img src="game2.jpg"height="150px" >
+            <a href="https://www.gameloft.com"> <b>Asphalt8</b></a>
+        </div>
+
+        <div class="items"> <img src="game3logo.jpg" height="150px">
+            <a href="https://ff.garena.com"><b>Freefire</b></a>
+        </div>
+
+        <div class="items"> <img src="game4logo.jpg" height="100px">
+            <a href="https://www.rockstargames.com/"><b>RTA</b></a>
+        </div>
+
+        <div class="items"><img src="game5.jpg" height="100px">
+             <a href="https://www.cyberpunk.net"><b>cyberpunk</b></a>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2><b>Shopping</h2></b>
+    <div class="container">
+
+        <div class="items"><img src="flipkart logo.jpg" height="150px" >
+            <a href="https://www.flipkart.com/"> <b>Flipkart</b></a>
+        </div>
+
+        <div class="items"><img src="amazon logo2.3.jpg"height="170px" >
+            <a href="https://www.amazon.in"> <b>Amazon</b></a>
+        </div>
+
+        <div class="items"> <img src="myntra logo2.jpg" height="120px">
+            <a href="https://www.myntra.com"><b>Myntra</b></a>
+        </div>
+
+        <div class="items"> <img src="ajio logo.jpg" height="170px">
+            <a href="https://www.ajio.com"><b>Ajio</b></a>
+        </div>
+
+        <div class="items"><img src="nykaa logo.jpg" height="160px">
+             <a href="https://www.nykaa.com"><b>Nykaa</b></a>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Study</h2>
+    <div class="container" data-flickity="{wrapAround: true}">
+
+        <div class="items"><img src="pw logo.jpg" height="180px" >
+            <a href="https://www.pw.live"> <b>PW</b></a>
+        </div>
+
+        <div class="items"><img src="apni logo2.jpg"height="170px" >
+            <a href="https://www.apnikaksha.net"> <b>Apani kaksha</b></a>
+        </div>
+
+        <div class="items"> <img src="khan logo.jpg" height="170px">
+            <a href="https://www.khanacademy.org"><b>Khan Accadmy</b></a>
+        </div>
+
+        <div class="items"> <img src="unaccdmi logo.2.jpg" height="170px">
+            <a href="https://unacademy.com"><b>Unaccdamy</b></a>
+        </div>
+
+        <div class="items"><img src="byjus3.3.jpg" height="100px">
+             <a href="https://students.byjus.com"><b>Byjus</b></a>
+        </div>
+    </div>
+</section>
+</main>
+
+    </body>
+    <footer>
+        <section>
+            <h2>
+                Our Group
+            </h2>
+              <img src="https://cdn2.sharechat.com/girlswhatsappgroupdp%E2%9D%A4%EF%B8%8F_179a58f7_1626518804257_sc_cmprsd_40.jpg" height="150px" alt="This is our group">
+              <h3>This is Our group</h3>
+    
+              <h4>The About Us page of your website is an essential source of information for all who want to know more about your business.
+
+                About Us pages are where you showcase your history, what is unique about your work, your company’s values, and who you serve.
+                
+                The design, written content, and visual or video elements together tell an important story about who you are and why you do it.</h4>
+            </section>
+    </footer>
+</html>
+
